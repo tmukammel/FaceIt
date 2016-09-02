@@ -1,0 +1,6 @@
+framework module Pods_FaceIt_Tests {
+  umbrella header "Pods-FaceIt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

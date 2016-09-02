@@ -1,0 +1,6 @@
+framework module Pods_FaceIt_Example {
+  umbrella header "Pods-FaceIt_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

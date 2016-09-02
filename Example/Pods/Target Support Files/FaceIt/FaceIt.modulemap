@@ -1,0 +1,6 @@
+framework module FaceIt {
+  umbrella header "FaceIt-umbrella.h"
+
+  export *
+  module * { export * }
+}

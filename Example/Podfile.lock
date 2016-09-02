@@ -1,0 +1,16 @@
+PODS:
+  - FaceIt (0.1.0)
+
+DEPENDENCIES:
+  - FaceIt (from `../`)
+
+EXTERNAL SOURCES:
+  FaceIt:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FaceIt: e630e5b2713ea9503faba88fe2bf0b8ba6f954f8
+
+PODFILE CHECKSUM: d912f6b9bd176f710bb8cf86770cde896f6a4100
+
+COCOAPODS: 1.0.1
