@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FaceIt_Example' do
+  pod 'FaceIt', :path => '../'
+
+  target 'FaceIt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
