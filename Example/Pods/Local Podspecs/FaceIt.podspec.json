@@ -1,9 +1,9 @@
 {
   "name": "FaceIt",
   "version": "0.1.0",
-  "summary": "A short description of FaceIt.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/FaceIt",
+  "summary": "FaceIt is a custom face emoji lib.",
+  "description": "Create custom face emoji with FaceIt public API.",
+  "homepage": "https://github.com/tmukammel/FaceIt",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "tmukammel": "t.mukammel@aol.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/FaceIt.git",
+    "git": "https://github.com/tmukammel/FaceIt.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -12,11 +12,12 @@
 		215FE0C6179C95B82029CF0D95A86D86 /* Pods-FaceIt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06B2D8F8974CCBFCCC93A3C0D61B49A /* Pods-FaceIt_Example-dummy.m */; };
 		4AE9C99EBFCB5DE63C03A66FBA71234E /* Pods-FaceIt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63446A3619C145882911090F9AA62D8D /* Pods-FaceIt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BB4D275FDE251D7BFF7B8CC38FF7733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		74B9663811BB7267941A97F677FC5389 /* FaceIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46D093019609F265282E905F2FBD937 /* FaceIt-dummy.m */; };
-		8557D37CD29EE3C99881302F09449DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7923C4C8854C1AFD0561D09DB1B04DA8 /* FaceIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46D093019609F265282E905F2FBD937 /* FaceIt-dummy.m */; };
+		8793B88CCE1F5FF8C59C10FF3E34561E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8B5DBFBDDB836FAA6A29DA05CA944AB6 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1440D8AA98992499E039DD383C4592D /* FaceView.swift */; };
 		8BC999AA1BD5C520888825139839E2E9 /* Pods-FaceIt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6504D425DB1766ED6A97B7F8E05EA7BF /* Pods-FaceIt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBF8AD578416BF87E3988AC42B43CED3 /* FaceIt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DD14F4C9482A4C9CF380A893B8BC1 /* FaceIt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6BE3D1E1799A082DC9B4194BF133FBD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAE0D7F74D6324160A3778CD84FF72 /* ReplaceMe.swift */; };
+		BF28F43187B0F0EA1B77AEB78320FDB8 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190EDBDB767095D08A51D5AD8A4CE16 /* FacialExpression.swift */; };
+		E0FDB7882308D7DABC85C7CD0F705CA9 /* FaceIt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DD14F4C9482A4C9CF380A893B8BC1 /* FaceIt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +25,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E33EC213A40B1F6F474C00C087AE1D9D;
+			remoteGlobalIDString = 519AE325E396EE7A867C107B4D6282AC;
 			remoteInfo = FaceIt;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D76E9820064D8E3E05816A7EC1D9209 /* Pods-FaceIt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceIt_Tests-dummy.m"; sourceTree = "<group>"; };
+		1190EDBDB767095D08A51D5AD8A4CE16 /* FacialExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		14F65049CFDD5A36A9C9EF747C893B9F /* Pods-FaceIt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceIt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C54D3076116BA532133A4C40DF51A4A /* Pods-FaceIt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FaceIt_Tests.modulemap"; sourceTree = "<group>"; };
 		2395E0B2546FD6CB849C29CBEB08088E /* Pods-FaceIt_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIt_Example-resources.sh"; sourceTree = "<group>"; };
@@ -51,9 +53,9 @@
 		87685944575AF3146AE3C0A554CBD5A5 /* Pods-FaceIt_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIt_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9665E78550A543D1DDA924DFDE3F6B4D /* FaceIt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FaceIt.modulemap; sourceTree = "<group>"; };
-		98FAE0D7F74D6324160A3778CD84FF72 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		9BAA749C2949736D729545AB5E8294B6 /* Pods-FaceIt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceIt_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9CC55B4E28C8B6730384C77574633E91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1440D8AA98992499E039DD383C4592D /* FaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		AB985C51DAA62FA853C5475121C886BA /* Pods-FaceIt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceIt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D06B2D8F8974CCBFCCC93A3C0D61B49A /* Pods-FaceIt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceIt_Example-dummy.m"; sourceTree = "<group>"; };
@@ -73,11 +75,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B237E04C224CB73BB3799BC8798B99B /* Frameworks */ = {
+		2CB534D282E81075AD1C0C350C7D86CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8557D37CD29EE3C99881302F09449DF7 /* Foundation.framework in Frameworks */,
+				8793B88CCE1F5FF8C59C10FF3E34561E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,10 +119,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4D1D778CECF3CF9AC6E89DFAA413BAB4 /* FaceIt */ = {
+		55FA06173F94EC05DAE888532B4C0BDF /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				F9419F1787FD697A7D2F9EC2987F1752 /* Classes */,
+				FB7F05F517D33275498B90104997869E /* Classes */,
 			);
 			path = FaceIt;
 			sourceTree = "<group>";
@@ -157,7 +159,7 @@
 		869ACEE65B95450D005338F93508B0F1 /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				4D1D778CECF3CF9AC6E89DFAA413BAB4 /* FaceIt */,
+				55FA06173F94EC05DAE888532B4C0BDF /* FaceIt */,
 				EBAD888DA0C8C63970D15979DF03590F /* Support Files */,
 			);
 			name = FaceIt;
@@ -214,10 +216,11 @@
 			path = "Example/Pods/Target Support Files/FaceIt";
 			sourceTree = "<group>";
 		};
-		F9419F1787FD697A7D2F9EC2987F1752 /* Classes */ = {
+		FB7F05F517D33275498B90104997869E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				98FAE0D7F74D6324160A3778CD84FF72 /* ReplaceMe.swift */,
+				A1440D8AA98992499E039DD383C4592D /* FaceView.swift */,
+				1190EDBDB767095D08A51D5AD8A4CE16 /* FacialExpression.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -233,19 +236,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BAAD78D7A4657C36EA82BA6BE704969 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBF8AD578416BF87E3988AC42B43CED3 /* FaceIt-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		98D9D975CF3E3774E0D5D470783CC46B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8BC999AA1BD5C520888825139839E2E9 /* Pods-FaceIt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAEE52590EAA0438898361A1B1CEBF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FDB7882308D7DABC85C7CD0F705CA9 /* FaceIt-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +273,23 @@
 			productReference = 6BB624F718F385FFFBEB28EA7A441701 /* Pods_FaceIt_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		519AE325E396EE7A867C107B4D6282AC /* FaceIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81010C1CBBB5CFC9C1BD7194D4656BDC /* Build configuration list for PBXNativeTarget "FaceIt" */;
+			buildPhases = (
+				471A42DAD72A31EE726A300AE5940995 /* Sources */,
+				2CB534D282E81075AD1C0C350C7D86CE /* Frameworks */,
+				FAAEE52590EAA0438898361A1B1CEBF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceIt;
+			productName = FaceIt;
+			productReference = F4BC54E2F1097FBB3B1CC28EE636430A /* FaceIt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5842E31C97CA6EC6E7E4F14BAD163EA9 /* Pods-FaceIt_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2778E06767B0505FD33BD9F188252F1C /* Build configuration list for PBXNativeTarget "Pods-FaceIt_Tests" */;
@@ -285,23 +305,6 @@
 			name = "Pods-FaceIt_Tests";
 			productName = "Pods-FaceIt_Tests";
 			productReference = 5301F2BA4D6C2C61866986944FE2B6AC /* Pods_FaceIt_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E33EC213A40B1F6F474C00C087AE1D9D /* FaceIt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FB7ABE4A573FCDC3E59E27278C8073DA /* Build configuration list for PBXNativeTarget "FaceIt" */;
-			buildPhases = (
-				AF42037DF79FF7A287A25AE336DE6932 /* Sources */,
-				9B237E04C224CB73BB3799BC8798B99B /* Frameworks */,
-				5BAAD78D7A4657C36EA82BA6BE704969 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FaceIt;
-			productName = FaceIt;
-			productReference = F4BC54E2F1097FBB3B1CC28EE636430A /* FaceIt.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +328,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E33EC213A40B1F6F474C00C087AE1D9D /* FaceIt */,
+				519AE325E396EE7A867C107B4D6282AC /* FaceIt */,
 				27CD8C20DE956623C63E34B08BC449E4 /* Pods-FaceIt_Example */,
 				5842E31C97CA6EC6E7E4F14BAD163EA9 /* Pods-FaceIt_Tests */,
 			);
@@ -341,12 +344,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF42037DF79FF7A287A25AE336DE6932 /* Sources */ = {
+		471A42DAD72A31EE726A300AE5940995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B9663811BB7267941A97F677FC5389 /* FaceIt-dummy.m in Sources */,
-				D6BE3D1E1799A082DC9B4194BF133FBD /* ReplaceMe.swift in Sources */,
+				7923C4C8854C1AFD0561D09DB1B04DA8 /* FaceIt-dummy.m in Sources */,
+				8B5DBFBDDB836FAA6A29DA05CA944AB6 /* FaceView.swift in Sources */,
+				BF28F43187B0F0EA1B77AEB78320FDB8 /* FacialExpression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,210 +368,13 @@
 		290A2DFE0A756A0FE28B1401B5338996 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FaceIt;
-			target = E33EC213A40B1F6F474C00C087AE1D9D /* FaceIt */;
+			target = 519AE325E396EE7A867C107B4D6282AC /* FaceIt */;
 			targetProxy = A41E036A8017E8B00564603B59EB3703 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		12988F80EE09FABDF4EC913CAEB7E52D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B38EAC1A4BEE4B3BAC0F891EDF68F11 /* FaceIt.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FaceIt/FaceIt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FaceIt/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FaceIt/FaceIt.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FaceIt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		67EEF0842F1C3991B9B30506EFE78BE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F0ADC3F8867F141CF1DD31C3F7F373E /* Pods-FaceIt_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Example/Pods-FaceIt_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FaceIt_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EF0337C7A9B9975A80211797ADCC243 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB985C51DAA62FA853C5475121C886BA /* Pods-FaceIt_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Tests/Pods-FaceIt_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FaceIt_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3C1F5FD816FA075FB55419C6DC444B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B38EAC1A4BEE4B3BAC0F891EDF68F11 /* FaceIt.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FaceIt/FaceIt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FaceIt/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FaceIt/FaceIt.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FaceIt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B88C437BC238C0BCFAA93673E16A3E6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 321CD072948CBE5D9BB848577640886F /* Pods-FaceIt_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Tests/Pods-FaceIt_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FaceIt_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -602,14 +409,47 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D437259E6A2FD45799CBD9E02E5193F8 /* Release */ = {
+		198C0A8F74DA4DBF3F5C1D328C0DE5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321CD072948CBE5D9BB848577640886F /* Pods-FaceIt_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Tests/Pods-FaceIt_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIt_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33999CCC106F56717A0DB3C632345ED3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0CAD8C7E19D6106685ED54E722DDAD1 /* Pods-FaceIt_Example.release.xcconfig */;
 			buildSettings = {
@@ -624,7 +464,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Example/Pods-FaceIt_Example.modulemap";
@@ -642,14 +482,178 @@
 			};
 			name = Release;
 		};
+		3AC8A497F1E392A8807053ECD85B2CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B38EAC1A4BEE4B3BAC0F891EDF68F11 /* FaceIt.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FaceIt/FaceIt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceIt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceIt/FaceIt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FaceIt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B724B654C6AE2B2B7534DA50F1FEA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B38EAC1A4BEE4B3BAC0F891EDF68F11 /* FaceIt.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FaceIt/FaceIt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceIt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceIt/FaceIt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FaceIt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B2BB4742E07E3A48487A66469C15AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB985C51DAA62FA853C5475121C886BA /* Pods-FaceIt_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Tests/Pods-FaceIt_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIt_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72DE6D06D66A42598CBBAC898D1B09BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0ADC3F8867F141CF1DD31C3F7F373E /* Pods-FaceIt_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaceIt_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaceIt_Example/Pods-FaceIt_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaceIt_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		11F818068FC0D2637A4B6C684F621AF1 /* Build configuration list for PBXNativeTarget "Pods-FaceIt_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67EEF0842F1C3991B9B30506EFE78BE0 /* Debug */,
-				D437259E6A2FD45799CBD9E02E5193F8 /* Release */,
+				72DE6D06D66A42598CBBAC898D1B09BE /* Debug */,
+				33999CCC106F56717A0DB3C632345ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -657,8 +661,8 @@
 		2778E06767B0505FD33BD9F188252F1C /* Build configuration list for PBXNativeTarget "Pods-FaceIt_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF0337C7A9B9975A80211797ADCC243 /* Debug */,
-				B88C437BC238C0BCFAA93673E16A3E6A /* Release */,
+				5B2BB4742E07E3A48487A66469C15AF0 /* Debug */,
+				198C0A8F74DA4DBF3F5C1D328C0DE5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -666,17 +670,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB7ABE4A573FCDC3E59E27278C8073DA /* Build configuration list for PBXNativeTarget "FaceIt" */ = {
+		81010C1CBBB5CFC9C1BD7194D4656BDC /* Build configuration list for PBXNativeTarget "FaceIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3C1F5FD816FA075FB55419C6DC444B3 /* Debug */,
-				12988F80EE09FABDF4EC913CAEB7E52D /* Release */,
+				3AC8A497F1E392A8807053ECD85B2CD7 /* Debug */,
+				4B724B654C6AE2B2B7534DA50F1FEA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
