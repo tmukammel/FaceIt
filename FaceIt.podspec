@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Create custom face emoji with FaceIt public API.
+Create custom face emoji with FaceIt public API. You can customize eyes, eyebrows, mouth.
                        DESC
 
   s.homepage         = 'https://github.com/tmukammel/FaceIt'

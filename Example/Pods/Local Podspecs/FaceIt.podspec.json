@@ -1,8 +1,8 @@
 {
   "name": "FaceIt",
   "version": "0.1.0",
-  "summary": "FaceIt is a custom face emoji lib.",
-  "description": "Create custom face emoji with FaceIt public API.",
+  "summary": "This is a test project. FaceIt is a custom face emoji lib.",
+  "description": "Create custom face emoji with FaceIt public API. You can customize eyes, eyebrows, mouth.",
   "homepage": "https://github.com/tmukammel/FaceIt",
   "license": {
     "type": "MIT",
