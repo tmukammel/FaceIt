@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FaceIt'
   s.version          = '0.1.0'
-  s.summary          = 'FaceIt is a custom face emoji lib.'
+  s.summary          = 'This is a test project. FaceIt is a custom face emoji lib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
